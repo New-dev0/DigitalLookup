@@ -1,0 +1,4 @@
+browserforge
+playwright
+fastapi
+uvicorn

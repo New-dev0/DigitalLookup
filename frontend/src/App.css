@@ -1,0 +1,178 @@
+.App {
+  min-height: 100vh;
+  background-color: #f8f9fa;
+  padding-bottom: 30px; /* Adjust this value based on the height of your footer */
+}
+
+.settings-icon {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  font-size: 24px;
+  cursor: pointer;
+  z-index: 1000;
+}
+
+.card {
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.form-control:focus {
+  border-color: #80bdff;
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+.btn-primary {
+  background-color: #007bff;
+  border-color: #007bff;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+  border-color: #0056b3;
+}
+
+.bordered-checkbox .form-check-input {
+  border: 2px solid #007bff;
+  width: 1.5em;
+  height: 1.5em;
+}
+
+.bordered-checkbox .form-check-input:checked {
+  background-color: #007bff;
+  border-color: #007bff;
+}
+
+.bordered-checkbox .form-check-label {
+  padding-left: 0.5em;
+}
+
+.websocket-status {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #f8f9fa;
+  padding: 5px;
+  text-align: center;
+  font-size: 0.8rem;
+  border-top: 1px solid #dee2e6;
+}
+
+.badge {
+  font-size: 0.9rem;
+  padding: 0.5em 0.7em;
+  margin-bottom: 0.5em;
+}
+
+.badge-with-button {
+  position: relative;
+  padding-right: 2em; /* Adjust this value as needed */
+}
+
+.badge-remove-btn {
+  position: absolute;
+  top: 50%;
+  right: 0.5em; /* Adjust this value as needed */
+  transform: translateY(-50%);
+  color: white;
+  padding: 0;
+  line-height: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.badge-remove-btn:hover {
+  color: #f8d7da;
+}
+
+.lazy {
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.lazy.loaded {
+  opacity: 1;
+}
+
+.dark-mode {
+  background-color: #1a1a1a;
+  color: #e0e0e0;
+}
+
+.dark-mode .card,
+.dark-mode .card-header,
+.dark-mode .accordion-button,
+.dark-mode .accordion-button:not(.collapsed) {
+  background-color: #2a2a2a;
+  color: #e0e0e0;
+}
+
+.dark-mode .form-control {
+  background-color: #3a3a3a;
+  color: #e0e0e0;
+  border-color: #4a4a4a;
+}
+
+.dark-mode .form-control::placeholder {
+  color: #888;
+}
+
+.dark-mode .btn-outline-secondary {
+  color: #e0e0e0;
+  border-color: #e0e0e0;
+}
+
+.dark-mode .btn-outline-secondary:hover {
+  background-color: #e0e0e0;
+  color: #1a1a1a;
+}
+
+.dark-mode .text-muted {
+  color: #888 !important;
+}
+
+.dark-mode .websocket-status {
+  background-color: #2a2a2a;
+  color: #e0e0e0;
+}
+
+.dark-mode .navbar {
+  background-color: #2a2a2a !important;
+}
+
+.dark-mode .navbar-brand {
+  color: #e0e0e0 !important;
+}
+
+.dark-mode .btn-primary {
+  background-color: #0056b3;
+  border-color: #0056b3;
+}
+
+.dark-mode .btn-primary:hover {
+  background-color: #003d80;
+  border-color: #003d80;
+}
+
+.dark-mode .btn-secondary {
+  background-color: #5a6268;
+  border-color: #5a6268;
+}
+
+.dark-mode .btn-secondary:hover {
+  background-color: #4e555b;
+  border-color: #4e555b;
+}
+
+.dark-mode .badge-light {
+  background-color: #3a3a3a;
+  color: #e0e0e0;
+}
+
+.dark-mode .badge-primary {
+  background-color: #0056b3;
+  color: #e0e0e0;
+}
+
